@@ -58,7 +58,8 @@ option:focus {
   transition: all .2s ease-in-out;
 
   &:hover {
-    transform: scale(1.05);
+    animation: pulse 1s;
+    box-shadow: 0 0 0 4em rgba($white,0);
   }
 
   &.bigger {
@@ -70,6 +71,7 @@ option:focus {
     background: inherit;
     border: 1px solid $white;
     box-shadow: none;
+     
   }
 }
 

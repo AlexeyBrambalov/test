@@ -77,25 +77,18 @@
     justify-content: center;
     background: $green;
     border-radius: 50%;
-    box-shadow: 0 0 15px rgba(227, 184, 115, 0.5);
     position: absolute;
     cursor: pointer;
     transition: all .2s ease-in-out;
 
     &_next {
       right: 45px;
-      &:hover {
-        transform: scale(1.05);
-      }
     }
 
     &_prev {
       display: none;
       left: 45px;
       transform: rotate(180deg);
-      &:hover {
-        transform: scale(1.05) rotate(180deg);
-      }
     }
   }
 }

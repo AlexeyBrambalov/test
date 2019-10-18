@@ -148,8 +148,6 @@ position: relative;
     width: 28px;
     display: flex;
     margin: 5px;
-    cursor: pointer;
-    
     align-items: center;
     justify-content: center;
     background: $green;
@@ -169,6 +167,7 @@ position: relative;
       background-position: center right;
       -webkit-background-size: cover;
       background-size: cover;
+      
 
       }
     }
